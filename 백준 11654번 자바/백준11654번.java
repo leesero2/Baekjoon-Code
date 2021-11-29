@@ -7,3 +7,5 @@ public class 백준11654번 {
         System.out.println(a);
     }
 }
+//System.in.read는 자바에서 입력을 담당
+//System.out.print는 자바에서 출력을 담당
