@@ -22,3 +22,4 @@ public class 백준14681번 {
 
     }
 }
+sadf
