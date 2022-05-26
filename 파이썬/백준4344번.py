@@ -17,8 +17,8 @@ for _ in range(n):  # n회만큼 반복
     # 평균보다 높은 학생 변수
     count = 0
 
-    for score in scores:
-        if score > average:
-            count += 1 # 평균보다 성적이 높다면 증감
+    for i in scores:
+        if i > average: # i번째 리스트 요소가 평균값보다 높다면
+            count += 1 # 카운트 변수 증감
 
     print(f'{(count / len(scores)) * 100:.3f}%')
